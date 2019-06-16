@@ -1,0 +1,35 @@
+{
+  "skillsItems":[
+    {
+      "index": 1,
+      "title": "精通 HTML/CSS/JavaScript/DOM 等各种 Web 前端技术",
+      "details": ["精通 HTML/CSS/JavaScript/DOM 等各种 Web 前端技术，熟悉 HTML5、CSS3、SCSS、ES6；", "精通响应式设计；"]
+    },
+    {
+      "index": 2,
+      "title": "熟悉 Bootsrap、JQuery、掌握 AngularJS、Vue 框架",
+      "details": ["熟悉 Bootsrap、JQuery;", "掌握 AngularJS，看过《Pro AngularJS》;", "在慕课网上学习过入门，看过 Vue 文档，用过Element-UI；", "看过 angular2.0+ 文档，写过DEMO;", "在Codecademy上学过基础的React"]
+    },
+    {
+      "index": 3,
+      "title": "熟悉 Java语言，使用过 ASP.NET C#、PHP和python",
+      "details": ["熟悉 Java、ASP.NET C#，专业课进修过；", "使用 ASP.NET C#、PHP+smarty 写过网页；", "用 python 做过爬虫和数据分析；"]
+    },
+    {
+      "index": 4,
+      "title": "掌握前端构建工具 Webpack、Gulp的使用",
+      "details": ["看过 Webpack文档，看视频和教程学习过，但没有深入；", "使用过他人写的Gulp-starter"]
+    },
+    {
+      "index": 5,
+      "title": "对 MVC 框架有熟悉的基础认识和实际操作经验",
+      "details": ["有 ASP.NET 的 WEB FORM、MVC 开发经验；", "使用 PHP+smarty 制作过基于 MVC 微框架的网页；", "自学过 AngularJS"]
+    },
+    { "index": 6, "title": "掌握基本的 Android 原生开发，做过简单的 app。", "details": ["我的专业选修课，了解不是很深"] },
+    { "index": 7, "title": "掌握基本计算机原理知识，如HTTP、数据结构等", "details": ["专业课内容"] },
+    { "index": 8, "title": "会使用 Git 源代码管理工具，了解过linux的简单操作", "details": ["自学接触过，学得不是很深"] },
+    { "index": 9, "title": "熟悉 Photoshop 操作", "details": ["熟练切图和其他操作，有制作过网页、logo、班服设计之类的经验"] },
+    { "index": 10, "title": "熟悉 mysql、sql sever 数据库", "details": ["有数据库设计、性能优化经验"] }
+
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "worksItems": [
+    {
+      "index": 1,
+      "title": "我的Github主页-Vue",
+      "img": "https://github.com/sm450203924/my-homepage/raw/master/screenshots/homepage.png",
+      "link": "https://github.com/sm450203924/my-homepage",
+      "introduction": "使用 Vue制作的个人主页"
+    },
+    {
+      "index": 2,
+      "title": "One Piece",
+      "img": "https://github.com/sm450203924/one-piece-website/raw/master/screenshots/homepage.png",
+      "link": "https://github.com/sm450203924/one-piece-website",
+      "introduction": "使用了 JQuery、Bootstrap 4 框架，并用 Webpack 打包，兼容 PC 和移动端的前端的小网页"
+    },
+    {
+      "index": 3,
+      "title": "One Piece-AngularJS",
+      "img": "https://github.com/sm450203924/one-piece-website-angularjs/raw/master/screenshots/cast.png",
+      "link": "https://github.com/sm450203924/one-piece-website-angularjs",
+      "introduction": "使用 AngularJS 1.x 写的一个简单的对（1）的改编"
+    },
+    {
+      "index": 4,
+      "title": "企业虚拟实景设计大赛",
+      "img": "https://github.com/sm450203924/competition/master/screenshots/homepage.png",
+      "link": "https://github.com/sm450203924/competition",
+      "introduction": "使用 PHP+smarty 制作、基于 MVC 微框架的前台小网站，兼容 PC 和移动端"
+    },
+    {
+      "index": 5,
+      "title": "酒店前台+后台管理",
+      "img": "https://github.com/sm450203924/hotel-asp-mvc/raw/master/screenshots/screenshot-order.png",
+      "link": "https://github.com/sm450203924/hotel-asp-mvc",
+      "introduction": "使用 ASP.NET C#制作、基于 MVC 框架的酒店前台和后台管理系统"
+    }
+  ]
+}
