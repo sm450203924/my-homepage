@@ -24,7 +24,7 @@
     {
       "index": 4,
       "title": "企业虚拟实景设计大赛",
-      "img": "https://github.com/sm450203924/competition/master/screenshots/homepage.png",
+      "img": "https://github.com/sm450203924/competition/raw/master/screenshots/homepage.png",
       "link": "https://github.com/sm450203924/competition",
       "introduction": "使用 PHP+smarty 制作、基于 MVC 微框架的前台小网站，兼容 PC 和移动端"
     },
