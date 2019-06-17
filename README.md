@@ -29,12 +29,9 @@
  - Vue Cli3
  <br>
 
-## Installing：
+## 安装 -*Installing*：
 
 ```shell  
 $ git clone https://github.com/sm450203924/my-homepage.git
 ```  
 <br>
-
-## License
-This project is licensed under the MIT License.
