@@ -21,8 +21,10 @@
                 :key="contactItem.index">
           <div class="contact-item">
             <el-card shadow="hover">
-              <div :style="{ backgroundImage: 'url('+ contactItem.img + ')'}"
-                   class="contact-item-image"></div>
+              <a :style="{ backgroundImage: 'url('+ contactItem.img + ')'}"
+                   class="contact-item-image"
+                   :href="contactItem.link" target="_blank"
+              ></a>
               <div class="contact-item-text">
                 <a :href="contactItem.link" target="_blank">
                   <h4>{{contactItem.title}}</h4>
@@ -85,6 +87,7 @@ export default {
   .contact-item-image{
     width:10em;
     height:10em;
+    display: block;
     border-radius: 50%;
     background-size: 100%;
     background-repeat: no-repeat;

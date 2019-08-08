@@ -8,8 +8,12 @@
                 :key="worksItem.index">
           <div class="works-item">
             <el-card shadow="hover">
-              <div :style="{ backgroundImage: 'url('+ worksItem.img + ')'}"
-                   class="works-item-image"></div>
+              <a :style="{ backgroundImage: 'url('+ worksItem.img + ')'}"
+                 class="works-item-image"
+                 :href="worksItem.link"
+                 target="_blank"
+              >
+              </a>
               <div class="works-item-text">
                 <a :href="worksItem.link" target="_blank">
                   <h4>{{worksItem.title}}</h4>
@@ -77,6 +81,7 @@ export default {
   .works-item-image {
     width: 10em;
     height: 15em;
+    display: block;
     border-radius: 5px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
