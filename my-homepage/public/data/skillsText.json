@@ -1,83 +1,29 @@
 {
-  "skillsItems": [
+  "skillsItems":[
     {
       "index": 1,
-      "title": "精通 HTML/CSS/JavaScript/DOM 等各种 Web 前端技术",
-      "details": [
-        "精通 HTML/CSS/JavaScript/DOM 等各种 Web 前端技术，熟练 HTML5、CSS3、SCSS、ES6；"
-      ]
+      "title": "精通 HTML5/CSS3/JavaScript 等各种 Web 前端技术，精通响应式设计",
+      "details": ["精通 HTML/CSS/JavaScript/DOM 等各种 Web 前端技术，熟悉 HTML5、CSS3、SCSS、ES6；", "精通响应式设计；"]
     },
     {
       "index": 2,
-      "title": "熟练响应式设计；",
-      "details": [
-        "学习过《响应式Web设计：HTML5和CSS3实战》，作品大多为响应式设计"
-      ]
+      "title": "熟练 Bootstrap、jQuery、Vue 框架，了解Angular",
+      "details": ["熟练 Bootsrap、jQuery、Vue;", "在各种网站上学习过Vue，看过文档；", "掌握 AngularJS，看过《Pro AngularJS》;",  "看过 angular2.0+ 文档，写过DEMO;", "在Codecademy上学过基础的React"]
     },
     {
       "index": 3,
-      "title": "熟练 Bootstrap、JQuery、掌握 Vue、了解 Angular",
-      "details": [
-        "熟练 Bootstrap、jQuery;",
-        "掌握 AngularJS，看过《Pro AngularJS》;",
-        "在慕课网上学习过入门，看过 Vue 文档，用过Element-UI；",
-        "看过 angular2.0+ 文档，写过DEMO;",
-        "在Codecademy上学过基础的React"
-      ]
+      "title": "熟悉 Java语言，使用过 ASP.NET C#、PHP和python",
+      "details": ["熟悉 Java、C++、ASP.NET C#，专业课进修过；", "使用 ASP.NET C#、PHP+smarty 写过网页；", "用 python 做过爬虫和数据分析；"]
     },
     {
       "index": 4,
-      "title": "掌握 Java语言，使用过 ASP.NET C#、PHP和Python",
-      "details": [
-        "掌握 Java、ASP.NET C#，专业课进修过；",
-        "使用 ASP.NET C#、PHP+smarty 写过网页；",
-        "用 python 做过爬虫和数据分析；"
-      ]
-    },
-    {
-      "index": 5,
       "title": "掌握前端构建工具 Webpack、Gulp的使用",
-      "details": [
-        "看过 Webpack文档，看视频和教程学习过，但没有深入；",
-        "使用过他人写的Gulp-starter"
-      ]
+      "details": ["看过 Webpack的文档、视频和教程；", "使用过Gulp"]
     },
-    {
-      "index": 6,
-      "title": "对 MVC 框架有熟悉的基础认识和实际操作经验",
-      "details": [
-        "有 ASP.NET 的 WEB FORM、MVC 开发经验；",
-        "使用 PHP+Smarty 制作过基于 MVC 微框架的网页；",
-        "自学过 AngularJS"
-      ]
-    },
-    {
-      "index": 7,
-      "title": "掌握基本计算机原理知识，如HTTP、数据结构等",
-      "details": [
-        "专业课内容"
-      ]
-    },
-    {
-      "index": 8,
-      "title": "会使用 Git 源代码管理工具，了解过Linux的简单操作",
-      "details": [
-        "自学接触过，学得不是很深"
-      ]
-    },
-    {
-      "index": 9,
-      "title": "熟练 Photoshop 操作",
-      "details": [
-        "熟练切图和其他操作，有制作过网页、logo、班服设计之类的经验"
-      ]
-    },
-    {
-      "index": 10,
-      "title": "熟练 MySQL、SQL Sever 数据库",
-      "details": [
-        "有数据库设计、性能优化经验"
-      ]
-    }
+    { "index": 5, "title": "掌握基本计算机原理知识，如HTTP、数据结构等", "details": ["专业课内容"] },
+    { "index": 6, "title": "熟练使用 Git 源代码管理工具，了解linux的简单操作", "details": ["实习期间加深了实际操作经验"] },
+    { "index": 7, "title": "熟练各平台软件的打包与发布，网站的部署，远程服务器的操作", "details": ["实习期间有相关实际操作经验"] },
+    { "index": 8, "title": "熟悉 Photoshop 操作", "details": ["熟练切图和其他操作，有制作过网页、logo、班服设计之类的经验"] },
+    { "index": 9, "title": "熟悉 MySQL、SQL Sever 数据库", "details": ["有数据库设计、性能优化经验"] }
   ]
 }

@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import MyPhoto from '@/assets/images/photo.jpg'
+import MyPhoto from '../../public/images/hp-photo.jpg'
 import TheTitle from '@/components/TheTitle.vue'
 
 export default {
@@ -49,8 +49,9 @@ export default {
 <style lang="scss" scoped>
   .photo-wrap{
     width:100%;
-    background-image: url('../assets/images/photocard-bg.jpg');
-    background-size: cover;
+    background-color: #fff;
+/*    background-image: url('../assets/images/photocard-bg.jpg');
+    background-size: cover;*/
     text-align: center;
   }
   .photo-card{
