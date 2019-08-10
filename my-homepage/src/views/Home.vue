@@ -3,8 +3,8 @@
     <the-title :commonTitle="title"></the-title>
       <div class="photo-card-wrap">
         <el-card shadow="always" class="photo-card">
-          <span class="name">{{name}}</span>
-          <h4>{{ profile }}</h4>
+          <span class="name"><img src="../../public/images/name.png" alt=""></span>
+          <h2>{{ profile }}</h2>
           <el-divider><i class="el-icon-link"></i></el-divider>
           <div class="photo-wrap">
             <el-image :src="imageSrc" class="info-photo">
@@ -33,7 +33,6 @@ export default {
   data () {
     return {
       title: 'home',
-      name: 'Sammy Feng',
       currentDate: new Date(),
       city: '上海 Shanghai',
       imageSrc: MyPhoto,
@@ -56,15 +55,18 @@ export default {
   }
   .photo-card{
     .name{
-      font-weight: 500;
-      font-size: 2em;
-      font-family: "Yu Mincho Light";
       border: 1px solid #a6a6a6;
       width:auto;
-      padding:10px 20px;
+      padding:0 20px 10px;
+      img{
+        max-width: calc(100% - 40px);
+        width: 300px;
+      }
     }
-    h4{
-      font-weight: 500;
+    h2{
+      padding: 10px;
+      font-weight: 600;
+      font-size: 1.2em;
     }
   }
   .info-photo{

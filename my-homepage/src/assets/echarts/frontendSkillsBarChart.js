@@ -18,7 +18,7 @@ export const frontendOption = {
     name: '熟练度',
     type: 'bar',
     barWidth: '50%',
-    data: [20, 40, 50, 75, 70, 85, 75, 95, 90],
+    data: [20, 40, 75, 70, 85, 75, 95, 90],
     itemStyle: {
       normal: {
         color: '#434dc6'

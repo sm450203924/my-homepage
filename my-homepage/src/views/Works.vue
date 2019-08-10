@@ -67,14 +67,22 @@ export default {
   }
 
   .works-item-text {
+    position: relative;
     a {
       text-decoration: none;
       color: inherit;
     }
     p{
-      height: 50px;
-      overflow: hidden;
+      text-align: left;
+      min-height: 2.8em;
+      line-height: 1.4em;
+      font-size: 0.9em;
+      overflow : hidden;
       text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      word-break: break-all;
     }
   }
 
