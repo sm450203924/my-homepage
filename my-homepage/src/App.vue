@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <the-sidebar-menu></the-sidebar-menu>
-    <router-view class="main-content"/>
+    <keep-alive>
+      <router-view class="main-content"/>
+    </keep-alive>
   </div>
 </template>
 

@@ -8,11 +8,15 @@
                 :key="worksItem.index">
           <div class="works-item">
             <el-card shadow="hover">
-              <a :style="{ backgroundImage: 'url('+ worksItem.img + ')'}"
-                 class="works-item-image"
+              <a class="works-item-image"
                  :href="worksItem.link"
                  target="_blank"
               >
+                <el-image :src="worksItem.img" class="works-item-image-slot">
+                  <div slot="placeholder" class="image-slot">
+                    {{worksItem.title}} loading...
+                  </div>
+                </el-image>
               </a>
               <div class="works-item-text">
                 <a :href="worksItem.link" target="_blank">
@@ -90,11 +94,28 @@ export default {
     width: 10em;
     height: 15em;
     display: block;
+/*    display: flex;
+    align-items: flex-start;
+    justify-content: center;*/
     border-radius: 5px;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
     margin: 0 auto;
     box-shadow: 1px 1px 5px #e1e1e1;
+    overflow: hidden;
   }
+
+  .works-item-image-slot{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #696969;
+  }
+  .el-image__error{
+    background: none;
+  }
+</style>
+
+<style>
+
 </style>

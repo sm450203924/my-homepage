@@ -21,10 +21,15 @@
                 :key="contactItem.index">
           <div class="contact-item">
             <el-card shadow="hover">
-              <a :style="{ backgroundImage: 'url('+ contactItem.img + ')'}"
-                   class="contact-item-image"
-                   :href="contactItem.link" target="_blank"
-              ></a>
+              <a class="contact-item-image"
+                 :href="contactItem.link" target="_blank"
+              >
+                <el-image :src="contactItem.img" class="contact-item-image-slot">
+                  <div slot="placeholder" class="image-slot">
+                    {{contactItem.title}} 图片加载中...
+                  </div>
+                </el-image>
+              </a>
               <div class="contact-item-text">
                 <a :href="contactItem.link" target="_blank">
                   <h4>{{contactItem.title}}</h4>
@@ -87,11 +92,11 @@ export default {
   .contact-item-image{
     width:10em;
     height:10em;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+    overflow: hidden;
     margin: 0 auto;
     box-shadow: 1px 1px 5px #e1e1e1;
   }
@@ -106,5 +111,11 @@ export default {
     .icon{
       transform: rotate(-30deg);
     }
+  }
+  .contact-item-image-slot{
+    color: #696969;
+  }
+  .el-image__error{
+    background: none;
   }
 </style>

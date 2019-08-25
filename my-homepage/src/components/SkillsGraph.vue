@@ -20,9 +20,6 @@
 </template>
 
 <script>
-import ECharts from 'vue-echarts'
-import 'echarts/lib/chart/line'
-import 'echarts/lib/component/polar'
 import { frontendOption } from '@/assets/echarts/frontendSkillsBarChart'
 import { backendOption } from '@/assets/echarts/backendSkillsBarChart'
 import { otherOption } from '@/assets/echarts/otherSkillsBarChart'
@@ -34,9 +31,6 @@ export default {
       backendOption: backendOption,
       otherOption: otherOption
     }
-  },
-  components: {
-    'v-chart': ECharts
   }
 }
 </script>
