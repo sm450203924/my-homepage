@@ -9,20 +9,27 @@
     },
     {
       "index": 2,
-      "title": "CSDN博客",
-      "img": "images/link-csdn.png",
-      "link": "https://blog.csdn.net/qq_37431724",
-      "introduction": "我的 CSDN 博客，有一些自学的笔记"
+      "title": "个人博客",
+      "img": "images/link-blog.jpg",
+      "link": "https://blog.sammyfeng.cn/",
+      "introduction": "我的个人博客"
     },
     {
       "index": 3,
+      "title": "CSDN博客",
+      "img": "images/link-csdn.png",
+      "link": "https://blog.csdn.net/qq_37431724",
+      "introduction": "我的 CSDN 博客，正在迁移到个人博客"
+    },
+    {
+      "index": 4,
       "title": "IMOOC",
       "img": "images/link-imooc.jpeg",
       "link": "https://www.imooc.com/u/4760237/courses",
       "introduction": "我的慕课网主页，有一些课上笔记和已学课程的展示"
     },
     {
-      "index": 4,
+      "index": 5,
       "title": "Codecademy",
       "img": "images/link-cocademy.png",
       "link": "https://www.codecademy.com/sm450203924",

@@ -1,6 +1,6 @@
 <template>
   <el-main>
-    <the-title :commonTitle="title"></the-title>
+    <the-title :commonTitle="title"/>
     <div class="contact-content">
       <el-row>
         <el-col :span="24">
@@ -9,7 +9,7 @@
               <div class="contact-item-email">
                 <label>Email: </label>
                 <span>{{email}}</span>
-                <span class="icon el-icon-connection"></span>
+                <span class="icon el-icon-connection"/>
               </div>
             </el-card>
           </div>
@@ -34,7 +34,7 @@
                 <a :href="contactItem.link" target="_blank">
                   <h4>{{contactItem.title}}</h4>
                 </a>
-                <el-divider><i class="el-icon-paperclip"></i></el-divider>
+                <el-divider><i class="el-icon-paperclip"/></el-divider>
                 <p>{{ contactItem.introduction }}</p>
               </div>
             </el-card>
@@ -48,6 +48,7 @@
 <script>
 import TheTitle from '@/components/TheTitle.vue'
 import axios from 'axios'
+
 export default {
   data () {
     return {

@@ -1,29 +1,82 @@
 {
-  "skillsItems":[
+  "skillsItems": [
     {
       "index": 1,
       "title": "熟练 HTML5/CSS3/JavaScript 等各种 Web 前端技术，熟练响应式设计",
-      "details": ["熟练 HTML/CSS/JavaScript/DOM 等各种 Web 前端技术，熟悉 HTML5、CSS3、SCSS、ES6；", "熟练响应式设计；"]
+      "details": [
+        "熟练 HTML/CSS/JavaScript 等各种 Web 前端技术；",
+        "熟练响应式设计；",
+        "看过《JavaScript高级程序设计》、《Html5与Css3模式设计》、《你不知道的Js》、《响应式设计》等书"
+      ]
     },
     {
       "index": 2,
-      "title": "熟练 Bootstrap、jQuery、Vue 框架",
-      "details": ["熟练 Bootsrap、jQuery、Vue;", "在各种网站上学习过Vue，看过文档；", "了解 AngularJS，看过《Pro AngularJS》;",  "看过 angular2.0+ 文档，写过DEMO;", "在Codecademy上了解过基础的React"]
+      "title": "熟练Vue、Bootstrap、jQuery框架，了解React；",
+      "details": [
+        "熟练 Bootstrap、jQuery。写过相关项目“报名参赛网站“、”海贼王介绍网站”,”酒店网站及其后台系统“等项目",
+        "通过官方文档学习过Vue，熟悉其风格指南和全家桶用法，了解其原理，写过“MIUI虚拟设置”、“订餐小App”、本主页的项目以及本主页的nuxt.js的配置；",
+        "通过官方文档学习React，了解React + Mobx的用法，稍微了解过原理（接触时间不长，从2020年2月底开始）",
+        "了解 AngularJS，看过《Pro AngularJS》;",
+        "看过 angular2.0+ 文档，写过DEMO;"
+      ]
     },
     {
       "index": 3,
-      "title": "了解 Java、C++语言，使用过 ASP.NET C#、PHP和python",
-      "details": ["熟悉 Java、C++、ASP.NET C#，专业课进修过；", "使用 ASP.NET C#、PHP+smarty 写过网页；", "用 python 做过爬虫和数据分析；"]
+      "title": "了解 Java、C++语言，使用过 ASP.NET C#、PHP和Python",
+      "details": [
+        "熟悉 Java、C++、ASP.NET C#，专业课进修过；",
+        "使用 ASP.NET C#、PHP+smarty 写过网页；",
+        "用 Python 做过爬虫和数据分析；"
+      ]
     },
     {
       "index": 4,
       "title": "掌握前端构建工具 Webpack的使用",
-      "details": ["看过 Webpack的文档、视频和教程；", "使用过Gulp"]
+      "details": [
+        "看过 Webpack的文档、视频和教程；"
+      ]
     },
-    { "index": 5, "title": "掌握基本计算机原理知识，如HTTP、数据结构等", "details": ["专业课内容"] },
-    { "index": 6, "title": "熟练使用 Git 源代码管理工具，了解linux的简单操作", "details": ["实习期间加深了实际操作经验"] },
-    { "index": 7, "title": "熟练各平台软件的打包与发布，网站的部署，远程服务器的操作", "details": ["实习期间有相关实际操作经验"] },
-    { "index": 8, "title": "熟悉 Photoshop 操作", "details": ["熟练切图和其他操作，有制作过网页、logo、班服设计之类的经验"] },
-    { "index": 9, "title": "熟悉 MySQL、SQL Sever 数据库", "details": ["有数据库设计、性能优化经验"] }
+    {
+      "index": 5,
+      "title": "掌握基本计算机原理知识，如计算机网络、数据结构等",
+      "details": [
+        "专业课内容"
+      ]
+    },
+    {
+      "index": 6,
+      "title": "熟悉Git命令行，熟悉项目开发分支规范及流程",
+      "details": [
+        "熟悉命令行，熟悉commitizen 规范以及Git Flow开发流程"
+      ]
+    },
+    {
+      "index": 7,
+      "title": "熟练 PhotoShop 操作",
+      "details": [
+        "熟练切图和其他操作，有制作过网页、logo、班服设计之类的经验，所有个人项目都是通过PhotoShop自行设计的"
+      ]
+    },
+    {
+      "index": 8,
+      "title": "了解 MySQL、SQL Sever 数据库",
+      "details": [
+        "专业课内容，做过的全栈项目都有所涉及"
+      ]
+    },
+    {
+      "index": 9,
+      "title": "会严格根据项目代码规范进行编码，对代码质量和前端UI、UX有自己的要求；",
+      "details": [
+        "熟悉Airbnb的CSS/JavaScript以及React开发规范，熟悉Vue风格指南。"
+      ]
+    },
+    {
+      "index": 10,
+      "title": "有丰富的网络自学经验，能够借助国内外资源进行自主学习和解决问题；",
+      "details": [
+        "经常阅读官方原文文档，使用stackOverflow解决项目问题"
+      ]
+    }
   ]
 }

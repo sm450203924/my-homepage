@@ -1,22 +1,29 @@
 <template>
   <nav class="nav-sidebar">
-    <el-menu :collapse="isCollapse"
-             :default-active="$route.path"
-             class="el-menu-vertical"
+    <el-menu
+      :collapse="isCollapse"
+      :default-active="$route.path"
+      class="el-menu-vertical"
     >
-      <router-link v-for="navigationItem of navigationItems"
-                   :to="{path: navigationItem.navUrl}"
-                   :key="navigationItem.index">
+      <router-link
+        v-for="navigationItem of navigationItems"
+        :to="{path: navigationItem.navUrl}"
+        :key="navigationItem.index"
+      >
         <el-menu-item>
-          <i :class="['icon', navigationItem.icon ? navigationItem.icon : '']"></i>
+          <i :class="['icon', navigationItem.icon ? navigationItem.icon : '']"/>
           <span slot="title">{{navigationItem.name}}</span>
         </el-menu-item>
       </router-link>
     </el-menu>
 
     <el-radio-group v-model="isCollapse">
-      <el-radio-button :label="false" :body-style="{ width:'100%' }"><span class="el-icon-arrow-right"></span></el-radio-button>
-      <el-radio-button :label="true"><span class="el-icon-arrow-left"></span></el-radio-button>
+      <el-radio-button :label="false" :body-style="{ width:'100%' }">
+        <span class="el-icon-arrow-right"/>
+      </el-radio-button>
+      <el-radio-button :label="true">
+        <span class="el-icon-arrow-left"/>
+      </el-radio-button>
     </el-radio-group>
   </nav>
 </template>
@@ -42,11 +49,13 @@ export default {
     width: 200px;
     min-height: 400px;
   }
+
   .el-menu {
-    border:none;
+    border: none;
   }
-  .el-menu-item{
-    i{
+
+  .el-menu-item {
+    i {
       margin-right: 15px;
       width: 25px;
       text-align: center;
@@ -54,21 +63,24 @@ export default {
       vertical-align: middle;
     }
   }
-  .el-radio-group{
+
+  .el-radio-group {
     position: absolute;
     bottom: 0;
-    width:100%;
+    width: 100%;
   }
-  .nav-sidebar{
+
+  .nav-sidebar {
     border-right: solid 1px #e6e6e6;
     background: #fff;
-    padding-top:10px;
-    position:fixed;
-    top:0;
+    padding-top: 10px;
+    position: fixed;
+    top: 0;
     bottom: 0;
-    left:0;
-    z-index:999;
+    left: 0;
+    z-index: 999;
   }
+
   a {
     color: inherit;
     display: block;
@@ -77,12 +89,13 @@ export default {
 </style>
 
 <style lang="scss">
-  .el-radio-button{
+  .el-radio-button {
     display: block;
-    width:100%;
-    .el-radio-button__inner{
+    width: 100%;
+
+    .el-radio-button__inner {
       display: block !important;
-      width:100% !important;
+      width: 100% !important;
       border-radius: 0 !important;
     }
   }

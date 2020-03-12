@@ -2,15 +2,15 @@
   <section class="graph-skills">
     <div class="skills-item">
       <el-row>
-        <el-col :md="24" :lg="12">
+        <el-col :md="24" :lg="8">
           <v-chart :options="frontendOption"
                    :style="{width:'100%'}"/>
         </el-col>
-        <el-col :md="24" :lg="12">
+        <el-col :md="24" :lg="8">
           <v-chart :options="backendOption"
                    :style="{width:'100%'}"/>
         </el-col>
-        <el-col :md="24" :lg="12">
+        <el-col :md="24" :lg="8">
           <v-chart :options="otherOption"
                    :style="{width:'100%'}"/>
         </el-col>

@@ -1,24 +1,34 @@
 <template>
   <el-main>
-    <the-title :commonTitle="title"></the-title>
+    <the-title :commonTitle="title"/>
       <div class="photo-card-wrap">
         <el-card shadow="always" class="photo-card">
-          <span class="name"><img src="../../public/images/name.png" alt=""></span>
+          <span class="name">
+            <img src="../../../public/images/name.png" alt="">
+          </span>
           <h2>{{ profile }}</h2>
-          <el-divider><i class="el-icon-link"></i></el-divider>
+          <el-divider>
+            <i class="el-icon-link"/>
+          </el-divider>
           <div class="photo-wrap">
             <el-image :src="imageSrc" class="info-photo">
               <div slot="placeholder" class="image-slot">
-                加载中<span class="dot">...</span>
+                加载中
+                <span class="dot">...</span>
               </div>
               <div slot="error" class="image-slot">
-                <i class="el-icon-picture-outline"></i>
+                <i class="el-icon-picture-outline"/>
               </div>
             </el-image>
           </div>
           <div class="text-wrap">
-            <h3><span class="el-icon-map-location"></span>{{ city }}</h3>
-            <time class="time">{{ currentDate }}</time>
+            <h3>
+              <span class="el-icon-map-location"/>
+              {{ city }}
+            </h3>
+            <time class="time">
+              {{ currentDate }}
+            </time>
           </div>
         </el-card>
       </div>
@@ -26,7 +36,7 @@
 </template>
 
 <script>
-import MyPhoto from '../../public/images/hp-photo.jpg'
+import MyPhoto from '../../../public/images/hp-photo.jpg'
 import TheTitle from '@/components/TheTitle.vue'
 
 export default {

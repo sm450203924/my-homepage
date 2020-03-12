@@ -1,26 +1,29 @@
 <template>
   <el-main>
-    <the-title :commonTitle="title"></the-title>
+    <the-title :commonTitle="title"/>
     <div class="tab-button">
       <el-button-group>
-        <el-button v-for="tab in tabs"
-                   :key="tab.componentName"
-                   @click="selected = tab.componentName"
-                   :class="selected === tab.componentName ? 'active':''">
+        <el-button
+          v-for="tab in tabs"
+          :key="tab.componentName"
+          @click="selected = tab.componentName"
+          :class="selected === tab.componentName ? 'active':''"
+        >
           {{ tab.name }}
         </el-button>
       </el-button-group>
     </div>
     <div class="skill-content">
-      <component :is="selected" class="component-content"></component>
+      <component :is="selected" class="component-content"/>
     </div>
   </el-main>
 </template>
 
 <script>
 import TheTitle from '@/components/TheTitle.vue'
-import SkillsGraph from '@/components/SkillsGraph.vue'
-import SkillsText from '@/components/SkillsText.vue'
+import SkillsGraph from './SkillsGraph.vue'
+import SkillsText from './SkillsText.vue'
+
 export default {
   data () {
     return {

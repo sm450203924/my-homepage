@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <the-sidebar-menu></the-sidebar-menu>
+    <the-sidebar-menu/>
     <keep-alive>
       <router-view class="main-content"/>
     </keep-alive>

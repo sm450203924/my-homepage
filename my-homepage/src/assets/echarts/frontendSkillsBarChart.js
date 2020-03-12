@@ -6,7 +6,7 @@ export const frontendOption = {
 
   },
   yAxis: {
-    data: ['React', 'Angular', 'Vue', 'Jquery', 'Bootstrap', 'Javascript', 'CSS(3)', 'HTML(5)'],
+    data: ['Jquery', 'Bootstrap', 'React', 'Vue', 'Javascript', 'CSS(3)', 'HTML(5)'],
     name: '前端技术',
     nameLocation: 'end',
     axisLabel: {
@@ -18,7 +18,7 @@ export const frontendOption = {
     name: '熟练度',
     type: 'bar',
     barWidth: '50%',
-    data: [20, 40, 75, 70, 85, 75, 95, 90],
+    data: [70, 70, 70, 85, 85, 95, 90],
     itemStyle: {
       normal: {
         color: '#434dc6'

@@ -1,17 +1,25 @@
 <template>
   <section class="text-skills">
     <el-collapse>
-      <el-collapse-item v-for="skillsItem of skillsItems"
-                        :key="skillsItem.index"
-                        :title="skillsItem.index + '. '+ skillsItem.title"
-                        class="skills-item">
-        <p v-for="(skillsItemDetail, index) of skillsItem.details" :key="index">- {{skillsItemDetail}}</p>
+      <el-collapse-item
+        class="skills-item"
+        v-for="skillsItem of skillsItems"
+        :key="skillsItem.index"
+        :title="skillsItem.index + '. '+ skillsItem.title"
+      >
+        <div
+          v-for="(skillsItemDetail, index) of skillsItem.details"
+          :key="index"
+        >-
+          {{skillsItemDetail}}
+        </div>
       </el-collapse-item>
     </el-collapse>
   </section>
 </template>
 <script>
 import axios from 'axios'
+
 export default {
   data () {
     return {
@@ -30,11 +38,11 @@ export default {
   }
 }
 </script>
-<style lang="scss" scoped>
-  .skills-item{
+<style lang="scss">
+  .el-collapse-item__header{
+    overflow-x: hidden;
     text-overflow: ellipsis;
-    width: 100%;
-    overflow: hidden;
     white-space: nowrap;
+    width: 100%;
   }
 </style>

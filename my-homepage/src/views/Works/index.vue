@@ -115,7 +115,3 @@ export default {
     background: none;
   }
 </style>
-
-<style>
-
-</style>

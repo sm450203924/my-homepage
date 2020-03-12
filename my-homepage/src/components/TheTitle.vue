@@ -30,7 +30,7 @@ export default {
   .heading-decoration{
     div{
       border-top: 1px;
-      height:0px;
+      height:0;
       margin: 0 auto;
       &:first-of-type{
         width:5em;

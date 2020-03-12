@@ -11,7 +11,7 @@ function resolve (dir) {
 const JS_CDN = [
   // 生产CDN
   'https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js',
-  'https://cdn.bootcss.com/vue-router/3.1.2/vue-router.min.js',
+  'https://cdn.bootcss.com/vue-router/3.1.2/vue-router.min.js'
   // 'https://cdn.jsdelivr.net/npm/echarts@4.2.1/dist/echarts.min.js',
   // 'https://cdn.jsdelivr.net/npm/vue-echarts@4.0.3'
 ]
@@ -65,7 +65,7 @@ module.exports = {
     if (isProduction) {
       config.externals = {
         'vue': 'Vue',
-        'vue-router': 'VueRouter',
+        'vue-router': 'VueRouter'
         // 'vue-echarts': 'ECharts'
       }
       // 打包生产.gz包

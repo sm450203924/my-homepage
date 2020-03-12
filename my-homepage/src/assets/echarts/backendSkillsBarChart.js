@@ -5,7 +5,7 @@ export const backendOption = {
     max: 100
   },
   yAxis: {
-    data: ['C++', 'Python', 'PHP', '.NET C#', 'Java'],
+    data: ['C++', 'Python', '.NET C#', 'PHP', 'Java'],
     name: '后端语言',
     axisLabel: {
       interval: 0,
@@ -15,7 +15,7 @@ export const backendOption = {
   series: [{
     name: '熟练度',
     type: 'bar',
-    data: [50, 65, 60, 50, 70],
+    data: [15, 15, 40, 30, 50],
     itemStyle: {
       normal: {
         color: '#b03b23'
