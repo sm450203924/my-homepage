@@ -42,7 +42,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "husky": "^4.2.3",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "pre-commit": "^1.2.2",
     "sass-loader": "^7.1.0",
     "stylelint": "^13.2.1",
